@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { width: 180px; padding: 15px; font-family: sans-serif; background: #f9f9f9; }
+    .title { font-size: 14px; font-weight: bold; margin-bottom: 10px; display: block; }
+    input[type="range"] { width: 100%; cursor: pointer; }
+    .val-container { text-align: right; margin-top: 5px; color: #666; }
+  </style>
+</head>
+<body>
+  <span class="title">声とも音量</span>
+  <input type="range" id="volume" min="0" max="100" value="20">
+  <div class="val-container"><span id="val">20</span>%</div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
